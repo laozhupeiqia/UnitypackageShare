@@ -25,8 +25,8 @@ function renderPackages() {
 
         card.querySelector(".name").addEventListener("click", (e) => {
             const file = e.target.dataset.file;
-            const name = e.target.dataset.name;
-            downloadPackage(file, name);
+            const realName = file.split("/").pop();
+            downloadPackage(file, realName);
         });
 
         grid.appendChild(card);
