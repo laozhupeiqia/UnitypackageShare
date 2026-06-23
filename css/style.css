@@ -64,6 +64,7 @@ header h1 {
 
 .package-card .info {
     padding: 16px;
+    text-align: center;
 }
 
 .package-card .name {
@@ -89,7 +90,7 @@ header h1 {
     height: 1px;
     background: currentColor;
     transform: scaleX(0);
-    transform-origin: left center;
+    transform-origin: center center;
     transition: transform 0.2s;
 }
 
