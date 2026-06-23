@@ -28,5 +28,11 @@ const packages = [
         name: "文本保存场景",
         image: "img/文本保存关卡.png",
         file: "resource/HighSave.unitypackage"
-    }
+    },
+	{
+	    id: "6",
+	    name: "公主连接主页模仿",
+	    image: "img/防公主连结主界面.png",
+	    file: "resource/公主连接主页.unitypackage"
+	}
 ];
